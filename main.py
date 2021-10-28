@@ -6,9 +6,9 @@ from discord.ext.commands import Bot
 
 bot = Bot("!")
 
-token = 'ODUzMjY1MjUyNzMyNTAyMDI2.YMS3MQ.jrEEz0wiQJMbUJq5AHi2oNe52QA'
+token = '<insert your discord token'
 
-mumble = pymumble.Mumble("192.168.100.40", "Superuser", port=64738, password="kutakkutimsampebodo.-")
+mumble = pymumble.Mumble("<your mumble server ip address", "Superuser", port=64738, password="<Superuser password on your mumble server")
 
 userID = 0
 msgID = 0
